@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url(https://www.news-medical.net/images/news/ImageForNews_808838_17461258694907356.jpg);
+   background-size: 1552px 730px;
+   background-repeat: no-repeat;
+    height: 3367px;
+}
+
+header {
+    height: 100vh;
+    
+}
+
+header .nav {
+    margin: 5px 20px;
+   padding: 2px 20px;
+   border-radius: 70px;
+   background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav .logo {
+    width: 100px;
+   border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* utility classes*/
+
+/* a to li*/
+.s:hover {
+    border-bottom: 3.5px solid rgb(255, 0, 0);
+}
+
+li {
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+hr {
+    border: 3px solid rgb(0, 59, 253);
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+header .content h1 {
+    font-size: 50px;
+}
+
+header .content p {
+    margin: 20px 0 40px;
+    font-size: 30px;
+        color: #ffffff;
+    background-color: #00000085;
+    border-radius: 80px;
+    padding: 13px;
+    
+}
+
+span {
+    color: rgb(255, 251, 3);
+}
+
+.bt {
+    border-radius: 2cap;
+    border-style: solid ;
+    border-color: rgb(255, 255, 255);
+   padding: 12px;
+    font-size: 20px;
+}
+
+.bt:hover {  
+      border-radius: 30px;
+      background-color:rgb(233, 249, 0);
+      color: black;
+}
+
+/*about star*/
+
+#about {
+    padding-top: 2rem;
+    max-width: 1400px;
+    background-color:rgb(255 255 244 / 72%) ;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    height: 80vh;
+    color: black;
+}
+
+#about .contaner .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .contaner .title , 
+#ofers .title ,
+#menu .contaner .title
+{
+    text-align: center;
+}
+
+#about h2 ,
+#ofers h2 ,
+#menu h2
+{
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
+.title p {
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+    padding-bottom: 4rem;
+}
+
+.about-content p {
+    padding-right: 7rem;
+    font-size: 20px;
+    color: rgb(79, 78, 78);
+    padding-top: 2rem;
+}
+
+.about-content #p {
+    padding-bottom: 60px;
+}
+
+.about-content a {
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.about-content img {
+    width: 500px;
+}
+
+.btn:hover {
+      background-color:rgb(233, 249, 0);
+}
+
+/*about end*/
+
+/*ofers start*/
+#ofers {
+    background-color: rgb(9, 47, 81);
+    height: 80vh;
+    margin-top: 75px;
+}
+
+#ofers .title{
+    color: aliceblue;
+    padding-top: 2rem;
+}
+
+#ofers .title p ,
+#menu .contaner .title p
+{
+    color: bisque;
+}
+
+#ofers .ofers-text img {
+  width: 230px;
+  border-radius: 13px;
+}
+
+#ofers .ofers-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#ofers .ofers-text h2 {
+    font-size: 36px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#ofers .ofers-text p {
+    font-size: 20px;
+    padding: 0 2rem;
+}
+
+#ofers .ofers-text .m {
+    padding-top: 10px;
+}
+
+#ofers p .primary-text {
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+/*ofers end*/
+
+/*menu start*/
+
+#menu {
+    background-color: rgb(105, 4, 4);
+    margin-top: 2px;
+}
+
+#menu .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .menu-items .menu-item img {
+    width: 130px;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+
+#menu .menu-items .menu-item h3 {
+    border-bottom: dashed rgb(106, 106, 106) 3px;
+    padding-bottom: 15px;
+    margin: 0 20px;
+    position: relative;
+    font-size: 25px;
+}
+
+#menu .menu-items .menu-item p
+{
+    margin: 12px 20px;
+}
+
+#menu .menu-items .menu-item span {
+    position: absolute;
+    margin-left: 10rem; 
+}
+
+#menu .contaner .title {
+    padding-top: 2rem;
+}
+
+/*menu end*/
+
+/*contact start*/
+#contact {
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 45, 59);
+}
+
+#contact .contaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+}
+
+#contact .contaner .contact-info {
+    width: 50%;
+}
+
+#contact .contaner h3 {
+    font-size: 27px;
+    margin: 30px 0 10px;
+}
+
+#contact .contaner p {
+    line-height: 2rem;
+    font-weight: 500;
+    color: rgb(89, 61, 61);
+}
+
+#contact .contaner p i {
+    margin-right: 5px;
+}
+
+#contact .contaner .contact-info i {
+   color: rgb(6, 57, 176);
+   margin-left: 10px;
+}
+
+#contact .contaner .contact-info a i {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 14px 31px 15px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+#contact .contaner .contact-info a i:hover {
+    background-color: yellow;
+    color: #383848;
+}
+/*form start*/
+.contaner .form  {
+    width: 50%;
+    margin-right:4rem ;
+}
+
+.contaner  form input ,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #e7d9c75c;
+}
+
+button.btn {
+    border-radius: 20px;
+    padding: 13px;
+    background: yellow;
+}
+
+button.btn:hover{
+    background-color: #383848;
+    color: white;
+    cursor: pointer;
+}
+/*form end*/
+/*contact end*/
+
+/*footer start*/
+#footer {
+    background-color: #383848;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 14px;
+}
